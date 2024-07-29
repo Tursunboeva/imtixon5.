@@ -1,38 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashbord</title>
-    <link rel="stylesheet" href="../style/dashbord.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
 </head>
 
 <body>
-    <section id="extra">
+    <section id="dashboard">
         <div class="container">
             <div class="wrapper">
-                <aside class="sidebar">
+                <div class="sidebar">
                     <div>
-                        <h2 class="dashbord-title">Dashboard</h2>
+                        <h2 class="dash_title">Dashboard</h2>
                     </div>
                     <div>
-                        <a class="back-title" href="../../index.html">Sign Out?</a>
+                        <a class="sign_dash" href="../index.html">Sign Out?</a>
                     </div>
-                </aside>
-                <div class="form-wrapper">
+                </div>
+                <div class="form">
                     <p class="title">Create New Post</p>
 
                     <form id="addForm">
 
                         <div>
-                            <label for="post-title">Post title</label>
+                            <label for="post">Post title</label>
                             <input required id="postTitle" type="text">
                         </div>
 
-                        <div class="input-wrapper">
-                            <div class="post-image-wrapper">
-                                <label for="input-image">Post image</label>
+                        <div class="input">
+                            <div class="post_img">
+                                <label for="input_img">Post image</label>
                                 <input required id="inputImage" type="url">
                             </div>
                             <div class="post-image-wrapper">
@@ -56,7 +56,7 @@
         </div>
     </section>
 
-    <script src="../script/dashbord.js"></script>
+    <script src="../script/dashboard.js"></script>
 </body>
 
 </html>
