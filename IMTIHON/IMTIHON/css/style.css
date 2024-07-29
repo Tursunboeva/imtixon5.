@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jomolhari", serif;
+}
+body{
+    min-height: 100vh;
+    background-color: #000;
+    
+    padding-bottom: 50px;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background-color: #000;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px 50px;
+    padding: 16px 86px;
+}
+.nav_list{
+    display: flex;
+    gap: 43px;
+}
+
+.nav_img{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #fff;
+}
+#img{
+    width: 100%;
+    min-height: 416px;
+    background-image: url("../img/image\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#articl{
+    width: 100%;
+    padding: 36px 0px 52px 0px;
+    background-color: #000;
+}
+.wrapper{
+    width: 100%;
+    padding-left: 86px;
+}
+.art_title{
+    font-size: 46px;
+    font-family: "Jomolhari", serif;
+    font-weight: 400;
+    line-height: 73.67px;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.art{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+.card-wrapper{
+    width: 100%;
+    max-width: 250px;
+    min-height: 336px;
+    background-color: #1E1E1E;
+    color: #fff;
+    border: 3px solid #F0DE36;
+    transition: 0.5s;
+}
+
+.image-wrapper{
+    width: 100%;
+    max-width: 240px;
+    height: 172px;
+}
+.picture{
+    width: 240px;
+    height: 172px;
+    object-fit: cover;
+}
+.card-content{
+    display:flex;
+    flex-direction: column;
+    padding: 10px 16px;
+
+}
+.card-bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+}
+.avatar-wrapper{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.card-title{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.card-text{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.22px;
+    height: 40px;
+    overflow: hidden;
+}
+.card-author{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.22px;
+}
+.card-subtitle{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.22px;
+    color: #787878;
+}
+.link__post{
+    border: 2px solid #F0DE36 ;
+    color: #fff;
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding: 10px   ;
+  
+    
+}
